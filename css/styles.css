@@ -19,6 +19,9 @@ ul {
     list-style-type: none;
 }
 
+.container {
+    width: 1200px;
+}
 
 /*Header*/
 .web,
@@ -92,6 +95,7 @@ ul {
     background-color: #2196F3CC;
 }
 
+
 .button-main-text {
     color: white;
     font-size: 16px;
@@ -147,6 +151,10 @@ ul {
 
 .button-portfolio:hover {
     background-color: var(--main-blue);
+}
+
+.button-portfolio:hover > span {
+    color: white;
 }
 
 .button-portfolio-text {
