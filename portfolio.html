@@ -16,31 +16,35 @@
 
   <body>
     <!-- Header -->
-    <header>
-      <a class="link" href="https://vigab.github.io/goit-markup-hw-03/">
-        <h2 class="web">Web<span class="studio">Studio</span></h2>
-      </a>
-      <nav>
+    <header class="header">
+      <div class="container">
+        <a class="link" href="https://vigab.github.io/goit-markup-hw-03/">
+          <h2 class="web">Web<span class="studio">Studio</span></h2>
+        </a>
+        <nav class="navigation">
+          <ul>
+            <li>
+              <a class="link" href="index.html">Agencja</a>
+            </li>
+            <li>
+              <a class="link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a class="link" href="kontakt.html">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
         <ul>
           <li>
-            <a class="link" href="index.html">Agencja</a>
+            <a class="contact" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a class="link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li>
-            <a class="link" href="kontakt.html">Kontakt</a>
+            <a class="contact" href="tel:+48111111111">+48 111 111 111</a>
           </li>
         </ul>
-      </nav>
-      <ul>
-        <li>
-          <a class="contact" href="mailto:info@devstudio.com"
-            >mailto:info@devstudio.com</a
-          >
-        </li>
-        <li><a class="contact" href="tel:+48111111111">+48 111 111 111</a></li>
-      </ul>
+      </div>
     </header>
     <main>
       <!-- Section 5 -->
@@ -213,18 +217,28 @@
     </main>
     <!-- Footer -->
     <footer class="footer">
-      <a class="link" href="https://vigab.github.io/goit-markup-hw-03/">
-        <h2 class="web-foot">Web<span class="studio-foot">Studio</span></h2>
-      </a>
-      <address class="address-foot">
-        m. Warszawa, Aleje Jerozolimskie 21
-      </address>
-      <address>
-        <a class="contact-foot" href="info@example.com">info@example.com</a>
-      </address>
-      <address>
-        <a class="contact-foot" href="tel:+48111111111">+48 111 111 111</a>
-      </address>
+      <div class="container">
+        <a class="link" href="https://vigab.github.io/goit-markup-hw-03/">
+          <h2 class="web-foot">Web<span class="studio-foot">Studio</span></h2>
+        </a>
+        <address>
+          <ul>
+            <li>
+              <p class="address-foot">m. Warszawa, Aleje Jerozolimskie 21</p>
+            </li>
+            <li>
+              <a class="contact-foot" href="info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a class="contact-foot" href="tel:+48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
