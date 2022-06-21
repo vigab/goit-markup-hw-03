@@ -40,7 +40,6 @@ ul {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
 }
 
 .section {
@@ -54,6 +53,7 @@ ul {
     border-bottom: 1px solid #ececec;
     background-color: #fff;
     padding: 25px 0;
+    height: 80px;
 }
 
 .header-menu {
@@ -185,13 +185,12 @@ ul {
     display: flex;
     list-style-type: none;
     flex-wrap: wrap;
-    margin-left: -30px;
     margin-bottom: -30px;
     padding-bottom: 94px;
+    justify-content: space-between;
 }
 
 .section-info-container {
-    margin-left: 30px;
     margin-bottom: 30px;
     max-width: 270px;
 }
@@ -227,20 +226,20 @@ ul {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: -30px;
-    margin-left: -30px;
+    justify-content: space-between;
+    
 }
 
 .title-section-list-item {
     margin-bottom: 30px;
-    margin-left: 30px;
 }
 
 .our-team-list {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    margin-left: -30px;
     margin-bottom: -30px;
+    justify-content: space-between;
 }
 
 .our-team-list-item {
@@ -248,7 +247,6 @@ ul {
     text-align: center;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    margin-left: 30px;
     margin-bottom: 30px;
 }
 
@@ -277,12 +275,21 @@ ul {
 
 /* Section portfolio */
 
+.portfolio-buttons {
+    padding-bottom: 0px;
+}
+
+.portfolio-projects {
+    padding-top: 0px;
+}
+
 .button-portfolio {
     background-color: var(--button-grey);
     cursor: pointer;
     border: 0px;
     padding: 6px 22px;
     border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 
@@ -303,19 +310,6 @@ ul {
     letter-spacing: 0.03em;
 }
 
-.portfolio-name {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2em;
-    color: var(--lighter-black);
-}
-
-.affiliation {
-    font-size: 16px;
-    line-height: 1.88em;
-    color: var(--main-grey);
-}
-
 .portfolio-buttons-list {
     display: flex;
     justify-content: center;
@@ -324,6 +318,7 @@ ul {
     margin-left: -8px;
     margin-bottom: -8px;
     padding-bottom: 50px;
+    
 }
 
 .portfolio-buttons-list-item {
@@ -335,14 +330,40 @@ ul {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    margin-left: -30px;
     margin-bottom: -30px;
+    justify-content: space-between;
 }
 
+
+
 .portfolio-projects-list-item {
-    margin-left: 30px;
     margin-bottom: 30px;
     max-width: 370px;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.portfolio-projects-image {
+    margin: 0px;
+}
+
+.portfolio-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2em;
+    color: var(--lighter-black);
+    letter-spacing: 0.06em;
+}
+
+.affiliation {
+    font-size: 16px;
+    line-height: 1.88em;
+    color: var(--main-grey);
+    letter-spacing: 0.03em;
+}
+
+.portfolio-projects-caption {
+    margin: 20px 24px 20px 24px;
 }
 
 /*Footer*/
